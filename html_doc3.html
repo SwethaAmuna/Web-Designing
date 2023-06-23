@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Document Object Model-Write</title>
-</head>
 <body>
     <script>
-        function writetodoc()
+        function wishme()
         {
-        document.write("welcome to DOM-write.....");
+            var n = document.getElementById
+            ("t1").value;
+            document.write("Happy Birthday to ...." +n);
         }
     </script>
-    <button onclick="writetodoc()">
-    write
+    <input type="text" name="" id="t1">
+    <button onclick = "wishme()">
+     wishme
     </button>
 </body>
+</head>
 </html>
